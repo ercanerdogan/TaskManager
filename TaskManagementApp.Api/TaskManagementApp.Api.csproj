@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagementApp.Application\TaskManagementApp.Application.csproj" />
+    <ProjectReference Include="..\TaskManagementApp.Infrastructure\TaskManagementApp.Infrastructure.csproj" />
+  </ItemGroup>
+
 
 </Project>
