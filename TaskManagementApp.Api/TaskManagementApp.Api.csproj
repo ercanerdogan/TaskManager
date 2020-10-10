@@ -9,5 +9,10 @@
     <ProjectReference Include="..\TaskManagementApp.Infrastructure\TaskManagementApp.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.8.2" />
+  </ItemGroup>
+
 
 </Project>
